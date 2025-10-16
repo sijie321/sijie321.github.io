@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #222;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .nav {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .logo {
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  .sitename {
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #444;
+    margin-right: 30px;
+    letter-spacing: 0.02em;
+  }
+  .nav-link {
+    margin-left: auto;
+    color: #999;
+    text-decoration: none;
+    font-size: 1.05em;
+    transition: color 0.15s;
+  }
+  .nav-link:hover {
+    color: #0a58ca;
+  }
+  .container {
+    max-width: 750px;
+    margin: 36px auto 0 auto;
+    padding: 0 30px 40px 30px;
+  }
+  .post-list {
+    margin-top: 24px;
+  }
+  .post {
+    margin-bottom: 38px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .date {
+    color: #999;
+    font-size: 1em;
+    margin-bottom: 2px;
+  }
+  .title {
+    display: block;
+    font-size: 1.32em;
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+  .title:hover {
+    text-decoration: underline;
+    color: #003c82;
+  }
+  .summary {
+    color: #333;
+    font-size: 1.05em;
+    margin-top: 4px;
+  }
+  @media (max-width: 650px) {
+    .container {
+      padding: 0 10px 30px 10px;
+    }
+    .nav {
+      padding: 0 12px;
+    }
+  }
+  
